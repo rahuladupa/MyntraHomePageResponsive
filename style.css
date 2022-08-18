@@ -1,0 +1,170 @@
+
+body{
+    background: #FAFBFC;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* navbar css */
+
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+.navbar i{
+    color: rgb(48, 42, 42);
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+}
+.nav-form{
+    margin-right: 50px;
+}
+.navbar{
+    /* height: 40px; */
+    margin-bottom: 15px;
+    color: #fff;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 15px;
+    color: #282c3f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    text-align: center;
+}
+.navbar ul li h5{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 0 2px;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+.navbar ul li a{
+    color: #282c3f;
+    line-height: 23px!important;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+.navbar ul li a:hover{
+    font-size: 700;
+    color: black;
+    font-size: 15px;
+
+}
+.navbar ul li .men-nav{
+    color: #ee5f73;
+}
+.navbar ul li .women-nav{
+    color: #fb56c1;
+}
+.navbar ul li .kids-nav{
+    color: #f26a10;
+}
+.navbar ul li .home-nav{
+    color: #f2c210;
+}
+.navbar ul li .beauty-nav{
+    color: #0db7af;
+}
+/* navbar css */
+/* carousel css */
+        .carousel{
+        padding-top: 80px;
+    }
+
+/* carousel css */
+
+/* deal of the day */
+.dealOfTheDay{
+text-transform: uppercase;
+color: #3e4152;
+letter-spacing: .15em;
+font-size: 1.8em;
+margin: 50px 0 30px 30px;
+max-height: 5em;
+font-weight: 500;
+}
+/* deal of the day */
+
+/* catgeories to bag */
+.bg-grey{
+    background-color: aliceblue;
+}
+/* catgeories to bag */
+
+/* footer css */
+/* .bg-gray{
+    background: grey;
+} */
+a{
+    text-decoration: none;
+}
+.footerHeading{
+    position: absolute;
+    margin-top: -25px;
+    padding-right: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.hrHeading{
+    margin-left: 120px;
+    border: 1px;
+    height: 1px;
+    background-color: rgb(32, 20, 20);
+}
+.popularLinks a{
+    color: white;
+}
+.fashionUlItems li {
+    list-style: decimal;
+    margin-bottom: 15px;
+}
+.list-group-item{
+    border: none;
+    padding: 1px;
+}
+footer h5{
+    color: #282c3f;
+    font-weight: 500;
+    font-size: 12px;
+}
+footer li a, .popularLinks a{
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.div-para{
+    color: #696b79;
+}
+.div-para1{
+    font-size: 14px;
+    color: #696b79;
+}
+.heading-Black{
+    color: #282c3f;
+}
+/* footer css */ 
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+    padding: 0px;
+}
+.beautyImg{
+    width: 380px;
+}
+.styleImg{
+    width: 255px;
+}
