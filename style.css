@@ -4,6 +4,29 @@ body{
     overflow-x: hidden;
     box-sizing: border-box;
 }
+/* light and dark  css */
+.mydark{
+    background-color: black;
+}
+.mydark nav{
+    background: black;
+    
+}
+.mydark .navbar-expand-lg .navbar-nav .nav-link, 
+.mydark .navbar i ,
+.mydark .dealOfTheDay ,
+.mydark footer h5,
+.mydark b, strong,
+.mydark .footerHeading,
+.mydark .btn-outline-success {
+    color: whitesmoke;;
+}
+.mydark .hrHeading{
+    background: whitesmoke;
+} 
+
+/* light and dark  css */
+
 /* navbar css */
 
 .dropdown-hover:hover>.dropdown-menu {
