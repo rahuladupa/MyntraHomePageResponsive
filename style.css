@@ -16,7 +16,7 @@ body{
 .mydark .navbar i ,
 .mydark .dealOfTheDay ,
 .mydark footer h5,
-.mydark b, strong,
+.mydark b, .mydark .myStrong,
 .mydark .footerHeading,
 .mydark .btn-outline-success {
     color: whitesmoke;;
@@ -24,7 +24,9 @@ body{
 .mydark .hrHeading{
     background: whitesmoke;
 } 
-
+b, .myStrong{
+    color: #282c3f;
+}
 /* light and dark  css */
 
 /* navbar css */
