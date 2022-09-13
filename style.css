@@ -193,3 +193,10 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
 .styleImg{
     width: 255px;
 }
+
+/* modal popup */
+.modalStyle{
+    text-align: center;
+    align-items: center;
+}
+/* modal popup */
